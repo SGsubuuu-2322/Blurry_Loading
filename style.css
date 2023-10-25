@@ -7,10 +7,26 @@
 body {
   font-family: "Young serif";
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1567591414240-e9c1e59f3e06?auto=format&fit=crop&q=80&w=1935&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  color: white;
+  font-size: 20px;
 }
