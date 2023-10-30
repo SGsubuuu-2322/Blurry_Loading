@@ -1,3 +1,4 @@
+/* These are the general stylings for root and body... */
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
@@ -15,6 +16,7 @@ body {
   border: 50px solid black;
 }
 
+/* This styling is background image in section in HTML... */
 .bg {
   background: url("https://images.unsplash.com/photo-1624030275207-77bac1c83be3?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
     no-repeat center center/cover;
@@ -27,6 +29,7 @@ body {
   filter: blur(0px);
 }
 
+/* This styling is for loading text... */
 .loading-text {
   color: white;
   font-size: 50px;
